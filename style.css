@@ -55,8 +55,9 @@ header {
   text-decoration: none;
 }
 
-hr {
-  width: 200px;
+.industries hr {
+  width: 300px;
+  border:1px solid #0B151A;
 }
 
 .youtube {
@@ -92,6 +93,40 @@ hr {
   margin-bottom: 6rem;
 }
 
+.industries{
+  margin-top: 1.5rem;
+}
+
+.industries ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.industries ul li a{
+text-decoration: none;
+color: #0B151A;
+font-weight: 600;
+
+}
+
+.industries ul li a:hover{
+  text-decoration: underline;
+}
+
+.industries ul li {
+  border-bottom: 1px solid #0B151A;
+  padding: 1rem 1rem;
+}
+
+.industries .numbers{
+  font-weight: 400;
+  padding-right: 1rem;
+}
+
+.pt-10{
+  padding-top: 10rem;
+}
 /*
 .video-container {
   position: relative;
